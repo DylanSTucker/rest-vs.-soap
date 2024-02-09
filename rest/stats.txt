@@ -1,0 +1,71 @@
+Dylan Tucker, dst833, 11235055
+
+overhead test
+fib = 5
+number of requests = 100
+#1
+average arrival time = 0.012380001544952392
+standard deviation = 6.115472419304524e-06
+longest arrival time = 0.024997949600219727
+shortest arrival time = 0.008998870849609375
+
+#2
+average arrival time = 0.014959967136383057
+standard deviation = 7.574087627105541e-05
+longest arrival time = 0.0820000171661377
+shortest arrival time = 0.008998870849609375
+
+#3
+average arrival time = 0.013568320274353028
+standard deviation = 6.224488049408588e-05
+longest arrival time = 0.07300591468811035
+shortest arrival time = 0.008831977844238281
+
+----------------------------------------------------------------------------
+
+(big fib number 1000000) throughput test
+fib = 1000000
+number of requests = 5
+
+#1
+average arrival time = 11.85214548110962
+standard deviation = 0.16582826291845323
+longest arrival time = 12.276111841201782
+shortest arrival time = 11.25905156135559
+
+#2
+average arrival time = 12.023815631866455
+standard deviation = 0.30128145786381993
+longest arrival time = 12.952993869781494
+shortest arrival time = 11.383706092834473
+
+#3
+average arrival time = 11.696325302124023
+standard deviation = 0.163501077591377
+longest arrival time = 12.345312118530273
+shortest arrival time = 11.29093074798584
+
+---------------------------------------------------------------------------
+
+scalability tests (10 clients)
+fibonacci number = 5
+number of requests per client = 100
+
+#1
+average arrival time = 0.11579589176177979
+standard deviation = 0.0020812810706111367
+longest arrival time = 0.5010013580322266
+shortest arrival time = 0.017000198364257812
+
+#2
+average arrival time = 0.1428139157295227
+standard deviation = 0.008580638598143838
+longest arrival time = 1.1429975032806396
+shortest arrival time = 0.07899928092956543
+
+#3
+average arrival time = 0.11440207886695862
+standard deviation = 0.002913236720639226
+longest arrival time = 0.6650030612945557
+shortest arrival time = 0.013999462127685547
+

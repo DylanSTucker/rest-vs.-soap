@@ -1,0 +1,72 @@
+Dylan Tucker, dst833, 11235055
+
+
+overhead tests
+fib = 5
+number of requests = 100
+
+#1
+average arrival time = 2.104905173778534
+standard deviation = 0.04362536065417738
+longest arrival time = 4.176536321640015
+shortest arrival time = 2.051213502883911
+
+#2
+average arrival time = 2.109120659828186
+standard deviation = 0.043253594275989356
+longest arrival time = 4.168656826019287
+shortest arrival time = 2.043189525604248
+
+#3
+average arrival time = 2.106594111919403
+standard deviation = 0.044518821771791756
+longest arrival time = 4.196819543838501
+shortest arrival time = 2.0448920726776123
+
+----------------------------------------------------------------------------
+
+throughput (big fib number 10000) tests
+fib = 10000
+number of requests = 10
+
+#1
+average arrival time = 15.13547616004944
+standard deviation = 1.4855812993143762
+longest arrival time = 17.098675966262817
+shortest arrival time = 14.132608890533447
+
+#2
+average arrival time = 14.906037712097168
+standard deviation = 1.004885026332172
+longest arrival time = 16.78087854385376
+shortest arrival time = 14.125055074691772
+
+#3
+average arrival time = 14.76680006980896
+standard deviation = 0.9056938354924476
+longest arrival time = 16.643421173095703
+shortest arrival time = 14.113994121551514
+
+-----------------------------------------------------------------------------
+
+scalability tests (10 clients)
+fibonacci number = 5
+number of requests per client = 100
+
+#1
+average arrival time = 2.1014421954154967
+standard deviation = 0.048683443329434486
+longest arrival time = 4.515998840332031
+shortest arrival time = 2.030799388885498
+
+#2
+average arrival time = 2.097105097770691
+standard deviation = 0.04451362837899183
+longest arrival time = 4.277553558349609
+shortest arrival time = 2.031024932861328
+
+#3
+average arrival time = 2.099924002408981
+standard deviation = 0.04454893374775511
+longest arrival time = 4.252859354019165
+shortest arrival time = 2.030787229537964

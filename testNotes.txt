@@ -1,0 +1,11 @@
+Test overhead
+- how long does it take for a request to be fullfilled
+    - time post and get requests
+
+Test scalability
+- how many clients can connect
+    - have many virtual machines connect to the server and make post and get requests
+
+Test throughput
+- how much data can be transfered between server/clients
+    - large data structures/objects
