@@ -1,6 +1,4 @@
-Dylan Tucker
-dst833
-11235055
+This project is a performance comparison between RESTful API and SOAP API.
 
 may need to install:
 - flask
